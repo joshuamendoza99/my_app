@@ -1,2 +1,17 @@
-<h1>Hash#mostrar</h1>
-<p>Find me in app/views/hash/mostrar.html.erb</p>
+<h1>Datos de la persona</h1>
+
+<table>
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Teléfono</th>
+    <th>Correo</th>
+  </tr>
+
+  <tr>
+    <td><%= @persona[:nombre] %></td>
+    <td><%= @persona[:apellido] %></td>
+    <td><%= @persona[:telefono] %></td>
+    <td><%= @persona[:correo] %></td>
+  </tr>
+</table>
